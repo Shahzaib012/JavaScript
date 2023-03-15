@@ -1,0 +1,13 @@
+var foods = [];
+foods.push("pizza");
+foods.push("burger");
+foods.push("snacks");
+console.log(foods);
+console.log("length = "+foods.length);
+foods.shift();
+foods.shift();
+console.log(foods);
+console.log("length"+foods.length);
+foods.unshift("Egg");
+console.log(foods.length);
+console.log(foods[0]);
